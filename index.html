@@ -96,20 +96,46 @@
             margin: 10px;
             border-radius: 10px;
         }
+        .img{
+            border-radius: 25px;
+            background-color: whitesmoke;
+            padding: 10px;
+        }
+        li{
+            display: inline;
+            padding: 5px;
+            font-size: larger;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: chocolate;
+            text-decoration: underline;
+            font-size: xx-large;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="row">
             <div class="box"><h1>Leela Krishna</h1></div>
-            <div class="box"><a href="#Home">Home</a> | <a href="#Projects">Projects</a> | <a href="#About">About</a> | <a href="#Services">Services</a> | <a href="#Contact">Contact</a></div>
+            <div class="box">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
         <div class="row1" id="Home">
             <div>
                 <h1 class="box1">Leela Krishna</h1>
                 <h3>I'm Full stack Developer</h3>
             </div>  
-            <img class="box1" src="https://github.com/kleelakrishna753/kleelakrishna753.github.io/blob/main/download%20(1).jpeg?raw=true" alt="..">
+            <img class="img" src="https://github.com/kleelakrishna753/kleelakrishna753.github.io/blob/main/download%20(1).jpeg?raw=true" alt="..">
         </div>
         <div class="row2" id="Projects">
             <div>
@@ -127,9 +153,9 @@
                     <li><a href="#">Git</a></li>
                 </ol>
                 <h1>Technologies</h1>
-                <div class="box2">
-                    <h3>C</h3>
-                    <h3>Python</h3>
+                <div>
+                    <h3 class="box2">C</h3>
+                    <h3 class="box2">Python</h3>
                 </div>
             </div>  
         </div>
